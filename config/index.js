@@ -1,5 +1,5 @@
 const API_NFT_STORAGE = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDI1Nzg1NEMzM0FhODI0RTFCNjA2NkNjMDI3NTk5N2Y0RjI3NDgxRjQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY5ODQ2NzEyNjkzMywibmFtZSI6Im5mdF91cGxvYWQifQ.y6yPD_tZROr4leH1h2_lOIgMkmZ8zs8MYaPhe9SwmeA"
-const CID = "bafybeieu2lgxcv4bycdogwtj6j2cyxtg24pud32jhg46cp6c4itypeaqam";
+const CID = "bafybeic53n2q3rcqqrxnsorstrtqixtnucs6cov42lsghzok5m6o5242rq";
 const PRIVATE_KEY = "ed25519:47zFDCPM2xJeXusgNk3gcjnTzArxwDeze44aam9eJxoZFjm4SJNtNFvpBUuqGfTGgvD5d1Gt6kUQEwbStUpxaEHK";
 const NETWORK = "testnet";
 const WALLET_ADDRESS = "walletdev.testnet";
