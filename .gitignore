@@ -1,0 +1,46 @@
+# Ignore dependencies
+/node_modules
+
+# Uncomment or remove the following lines to include package-lock and yarn-lock files
+package-lock.json
+yarn.lock
+
+# Ignore npm's lock files
+package-lock.json
+npm-shrinkwrap.json
+
+# Ignore user-specific files
+.npmrc
+.npmignore
+.npm-debug.log
+
+# Ignore logs and debug data
+logs
+*.log
+
+# Ignore pids and process files
+pids
+*.pid
+*.seed
+
+# Ignore node-waf configuration
+.node_waf
+
+# Ignore REPL history
+.node_repl_history
+
+# Output files
+*.pem
+*.seed
+*.csr
+*.key
+
+# Ignore development and runtime environment files
+.env
+.env.*.local
+
+# Ignore .DS_Store (macOS system file)
+.DS_Store
+
+# Ignore Thumbs.db (Windows system file)
+Thumbs.db

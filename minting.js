@@ -58,11 +58,14 @@ const config = getConfig("testnet");
         }
     }
 
-    let datas = fs.readdirSync("./nft_json");
+    let datas = fs.readdirSync("./art_engine/build/json");
 
     let token_series_id = 1;
     for (const data of datas) {
-        const metadata = JSON.parse(fs.readFileSync(`./nft_json/${data}`));
+        if(data.startsWith('_')){
+            continue;
+        }
+        const metadata = JSON.parse(fs.readFileSync(`./art_engine/build/json/${data}`));
         const param = {
             "creator_id": WALLET_ADDRESS,
             "token_metadata": {

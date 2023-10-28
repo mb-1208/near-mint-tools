@@ -1,0 +1,12 @@
+1. masuk ke folder art engine
+2. setting config di art engine, path ./src/config.js
+3. npm run build
+4. npm run merge
+5. kalo ada perubahan data di config, jalanin fungsi npm run update_info
+6. cd ..
+7. setup config, hanya isi bagian API_NFT_STORAGE untuk upload folder ke ipfs
+8. npm run upload
+9. deploy contract nft/ft (fungsi commands)
+10. update config, lengkapi semua configurasi didalam ./config/index.js
+11. update/isi walletRecipient atau walletTokenRecipient
+12. jalankan fungsi "npm run mint_nft"/"npm run transfer_ft"
