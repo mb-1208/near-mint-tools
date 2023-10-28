@@ -1,0 +1,48 @@
+{
+    "name": "TON Punks #1",
+    "description": "TON Punks will born on TON Blockchain.",
+    "image": "1.png",
+    "json": "1.json",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Based"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Alien"
+      },
+      {
+        "trait_type": "Neck",
+        "value": "Diamond Chain"
+      },
+      {
+        "trait_type": "Beard",
+        "value": "Chinstrap"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Vape"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Horned Rim Glasses"
+      },
+      {
+        "trait_type": "Head",
+        "value": "Knitted Cap"
+      },
+      {
+        "trait_type": "Earring",
+        "value": "None"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Normal"
+      }
+    ],
+    "dna": "935c71da50fda62af12201aaa1388eab9f8601f1",
+    "edition": 1,
+    "external_url": "https://codecats.xyz",
+    "date": 1696161031764
+  }
