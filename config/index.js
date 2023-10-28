@@ -7,6 +7,9 @@ const ROYALTY = {
     "walletdev.testnet": 1000 // 10%
 }
 
+const CONTRACT_TOKEN_ADDRESS = "token2.walletdev.testnet";
+const TOKEN_DECIMAL = 18;
+
 
 function getConfig(env) {
     switch (env) {
@@ -34,4 +37,4 @@ function getConfig(env) {
     }
 }
 
-module.exports = { getConfig, NETWORK, WALLET_ADDRESS, PRIVATE_KEY, CONTRACT_ADDRESS, ROYALTY, CID}
+module.exports = { getConfig, NETWORK, WALLET_ADDRESS, PRIVATE_KEY, CONTRACT_ADDRESS, ROYALTY, CID, CONTRACT_TOKEN_ADDRESS, TOKEN_DECIMAL}
